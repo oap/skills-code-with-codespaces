@@ -6,5 +6,5 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false ,
-  "postCreateCommand": "./.devcontainer/setup.sh"
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
