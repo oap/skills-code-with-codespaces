@@ -7,7 +7,7 @@ CURRENT_TIME=$(date '+%Y-%m-%d %H:%M:%S')
 FILE_PATH="$HOME/newfile.txt"
 
 # Create a new file in the home directory and add the content
-echo "testing $CURRENT_TIME" >> "$FILE_PATH"
+echo "testing setup.sh $CURRENT_TIME" >> "$FILE_PATH"
 
 # Print a success message
 echo "File '$FILE_PATH' created with content: testing $CURRENT_TIME"
