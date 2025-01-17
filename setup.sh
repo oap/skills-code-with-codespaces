@@ -7,7 +7,7 @@ CURRENT_TIME=$(date '+%Y-%m-%d %H:%M:%S')
 FILE_NAME="newfile.txt"
 
 # Create a new file and add the content
-echo "setup.sh testing $CURRENT_TIME" >> "$FILE_NAME"
+echo "setup.sh testing $CURRENT_TIME" >> "~/$FILE_NAME"
 
 # Print a success message
 echo "File '$FILE_NAME' created with content: testing $CURRENT_TIME"
