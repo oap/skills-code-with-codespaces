@@ -10,4 +10,4 @@ FILE_PATH="$HOME/newfile.txt"
 echo "testing dotfiles/setup.sh $CURRENT_TIME" >> "$FILE_PATH"
 
 # Print a success message
-echo "File '$FILE_PATH' created with content: testing $CURRENT_TIME"
+echo "File '$FILE_PATH' created with content: testing dotfiles/setup.sh $CURRENT_TIME"
