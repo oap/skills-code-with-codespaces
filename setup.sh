@@ -3,11 +3,11 @@
 # Get the current time in a readable format
 CURRENT_TIME=$(date '+%Y-%m-%d %H:%M:%S')
 
-# Define the file name
-FILE_NAME="newfile.txt"
+# Define the file path in the home directory
+FILE_PATH="$HOME/newfile.txt"
 
-# Create a new file and add the content
-echo "setup.sh testing $CURRENT_TIME" >> "~/$FILE_NAME"
+# Create a new file in the home directory and add the content
+echo "testing $CURRENT_TIME" >> "$FILE_PATH"
 
 # Print a success message
-echo "File '$FILE_NAME' created with content: testing $CURRENT_TIME"
+echo "File '$FILE_PATH' created with content: testing $CURRENT_TIME"
